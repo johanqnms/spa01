@@ -1,11 +1,12 @@
 import "./homepage.css";
-
 const Homepage = () => {
 
     const view = `
-          <a href="#home">Inicio</a> | <a href="#results">Resultados</a>
-          <br>
-          <h1>Homepage</h1>
+          <div class="container--homepage">
+            <a href="#home">Inicio</a> | <a href="#results">Resultados</a>
+            <br>
+          <h1>Home Page</h1></div>
+          
       `;
     return view;
   };

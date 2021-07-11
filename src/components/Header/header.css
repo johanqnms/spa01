@@ -1,22 +1,20 @@
 .header {
-    background-color: #3366cc;
-    width: 100%;
+    background-color: #dde1e9;
     height: 40px;
-    padding-top: 12px;
-    padding-left: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   
   .header span img {
+    padding: 25px;
     height: 25px;
   }
   
   .header span a {
     display: flex;
-    margin-right: 50px;
-    margin-top: 3px;
+    padding-right: 50px;
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
-    color: white;
+    color: black;
   }

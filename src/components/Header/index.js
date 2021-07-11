@@ -1,9 +1,10 @@
 import "./header.css";
+import img from "../../assets/img/logo.png";
 
 const Header = () => {
     const view = `
-          <span class="header-home-img"><img src="ruta" alt="Logo Gobierno"></span>
-          <span><a href="#">Ir a Gov.co</a></span>
+          <span class="header-home-img"><img src="${img}" alt="Logo"></span>
+          <span><a href="#">Contáctenos</a></span>
       `;
     return view;
   };
