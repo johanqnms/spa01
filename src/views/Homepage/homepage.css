@@ -1,7 +1,7 @@
 .container--homepage {
+  height: inherit;
   background: #1A2980;  
-  background: linear-gradient(#527d95, #d0d0d4); 
-  height: 80vh;
+  background: linear-gradient(#348570, #d0d0d4); 
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,30 @@
   align-items: center;
 }
 
-.container--homepage > a {
+
+.search {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40vw;
+  height: 40vh;
+  background-color:rgb(35, 93, 66);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.search > .search--title {
   color: white;
+}
+.search > .search--input {
+  width: inherit;
+  border-radius: 15px;
+  height: 30px;
+}
+
+.search > .search--button {
+  width: 100px;
+  height: 30px;
 }

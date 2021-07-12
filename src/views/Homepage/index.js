@@ -1,14 +1,15 @@
 import "./homepage.css";
 const Homepage = () => {
-
-    const view = `
+  const view = `
           <div class="container--homepage">
-            <a href="#home">Inicio</a> | <a href="#results">Resultados</a>
-            <br>
-          <h1>Home Page</h1></div>
-          
+            <div class="search">
+              <h1 class="search--title">Buscador</h1>
+              <input class="search--input" type="text">
+              <button class="search--button">Consultar</button>
+            </div>
+        </div>
       `;
-    return view;
-  };
-  
-  export default Homepage;
+  return view;
+};
+
+export default Homepage;
